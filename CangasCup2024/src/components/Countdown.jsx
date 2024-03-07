@@ -44,7 +44,7 @@ function Countdown() {
                 <div>
                         <div style={{ color: "#fc8802" , fontSize:"20px"}}>Solo faltan...</div>
                         <div style={{ color: "#b1b2b5", fontSize: "20px" }}>
-                        {timeLeft.days} días, {timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}
+                        {timeLeft.days} días, {timeLeft.hours} horas {timeLeft.minutes} min {timeLeft.seconds} seg
                     </div>
                         <div style={{ color: "#000000", fontSize: "16px" }} >14 de junio</div>
                 </div>

@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Video from "../components/Video.astro";
 import Intro from "../components/Intro.astro";
 import Bento from "../components/Bento.astro";
+import PreviousPoster from "../components/PreviousPoster.astro"
 ---
 
 <Video />
@@ -10,7 +11,8 @@ import Bento from "../components/Bento.astro";
   description="Bienvenido a las Cangas Cup 2024, un fin de semana que se te pasará volando"
   title="Cangas Cup Futsal 2024"
 >
-  <main>
+  <main >
+    <PreviousPoster />
     <Intro />
     <Bento />
   </main>
